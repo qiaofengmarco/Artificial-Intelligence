@@ -1,0 +1,28 @@
+开始:
+Learning_Rate = 0.35
+Momentum = 0.85
+无regulization
+
+训练集正确率接近70%:
+Learning_Rate = 0.3
+Momentum = 0.85 
+加上regulization，参数为0.000015
+
+训练集正确率接近76%:
+Learning_Rate = 0.2
+Momentum = 0.99 
+加上regulization，参数为0.0000025
+
+训练集正确率为84.1%:
+Learning_Rate = 0.2
+Momentum = 0.99 
+加上regulization，参数为0.000002
+
+当前最好 21:19
+
+0:59
+
+23:40
+
+20:18
+ 
