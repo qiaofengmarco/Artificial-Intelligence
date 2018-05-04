@@ -13,7 +13,7 @@
   
     ![image](https://github.com/qiaofengmarco/Artificial-Intelligence/raw/master/Lab1-Artificial%20Neural%20Network/Result%20Description/1.jpg)
 
-  - Then, the result is displayed:
+  - Then, the result is displayed: (Note you may need to re-make the whole project.)
   
     ![image](https://github.com/qiaofengmarco/Artificial-Intelligence/raw/master/Lab1-Artificial%20Neural%20Network/Result%20Description/2.jpg)
 
