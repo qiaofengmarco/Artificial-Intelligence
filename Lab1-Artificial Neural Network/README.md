@@ -9,11 +9,11 @@
 - Result Description
   - Note: You may find a tester in each directory.
     > python linux_tester.py
-  - First, select a image:
+  - First, you can select an image:
   
     ![image](https://github.com/qiaofengmarco/Artificial-Intelligence/raw/master/Lab1-Artificial%20Neural%20Network/Result%20Description/1.jpg)
 
-  - Result:
+  - Then, the result is displayed:
   
     ![image](https://github.com/qiaofengmarco/Artificial-Intelligence/raw/master/Lab1-Artificial%20Neural%20Network/Result%20Description/2.jpg)
 
