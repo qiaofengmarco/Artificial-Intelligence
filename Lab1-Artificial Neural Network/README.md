@@ -3,7 +3,7 @@
 - Important Note: 
   - You can use my code as reference, but please don't directly copy them, because its performance may be poor. (I have analysized the result in my slides.)  
 - Code:
-  - You can run the Python script "recognition.py" in Linux and see the result.
+  - You can run the Python script "recognizer_linux.py" in Linux and see the result.
     > python recognizer_linux.py
   - You can also train it yourself by modifying codes and re-making them.
     > make all
