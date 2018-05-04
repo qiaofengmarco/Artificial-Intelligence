@@ -3,9 +3,9 @@
 - Code:
   - You can compile the python script "recognition.py" in Linux and see the result.
     > python recognition.py
-  - You can also train it yourself by modifying codes in "main.cpp" and make it.
+  - You can also train it yourself by modifying codes and re-making them.
     > make all
-  - Note that the neural network is defined in "Network.cpp".
+  - Note that the neural network is defined and implemented in "Network.hpp".
 - Result Description:
   - Note: You may find a tester in each directory.
     > python linux_tester.py
