@@ -1,0 +1,14 @@
+# Artificial Neural Network for Face Recognition
+- Lab Description: http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/faces.html
+- Code
+  - You can compile the python script "recognition_linux.py" and see the result.
+    > python recognition_linux.py
+  - You can also train it yourself by modifying codes in "main.cpp" and make it.
+    > make all
+  - Note that the neural network is defined in "Network.cpp"
+- Result Description
+  - First, select a image:
+![image][https://github.com/qiaofengmarco/Artificial-Intelligence/raw/master/Lab1-Artificial%20Neural%20Network/Result%20Description/1.jpg]
+  - Result:
+![image][https://github.com/qiaofengmarco/Artificial-Intelligence/raw/master/Lab1-Artificial%20Neural%20Network/Result%20Description/2.jpg]
+![image][https://github.com/qiaofengmarco/Artificial-Intelligence/raw/master/Lab1-Artificial%20Neural%20Network/Result%20Description/3.jpg]
