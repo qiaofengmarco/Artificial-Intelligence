@@ -9,7 +9,7 @@
 - Result Description:
   - Note: You may find a tester in each directory.
     > python linux_tester.py
-  - First, you can select an image:
+  - First, you can select an image (Both "xxx_2.pgm" and "xxx_4.pgm" could be successfully open, but "xxx.pgm" can't. It is probably because that PIL library may not provide a support for ".pgm" file in P5 format.):
   
     ![image](https://github.com/qiaofengmarco/Artificial-Intelligence/raw/master/Lab1-Artificial%20Neural%20Network/Result%20Description/1.jpg)
 
