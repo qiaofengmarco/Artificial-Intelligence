@@ -3,15 +3,15 @@
 - Important Note: 
   - You can use my code as reference, but please don't directly copy them, because its performance may be poor. (I have analysized the result in my slides.)  
 - Code:
-  - You can compile the python script "recognition.py" in Linux and see the result.
+  - You can run the Python script "recognition.py" in Linux and see the result.
     > python recognition.py
   - You can also train it yourself by modifying codes and re-making them.
     > make all
-  - Note that the neural network is defined and implemented in "Network.hpp".
+  - Note that the Neural Network is defined and implemented in "Network.hpp".
 - Result Description:
-  - Note: You may find a tester in each directory.
+  - Note: You may find a tester in each directory, and you run the Python script.
     > python linux_tester.py
-  - First, you can select an image
+  - First, you can select an image:
     - Both "xxx_2.pgm" and "xxx_4.pgm" could be successfully opened, but "xxx.pgm" can't. It is probably because I use Python PIL Library and it may not provide a support for ".pgm" file in P5 format.)
   
     ![image](https://github.com/qiaofengmarco/Artificial-Intelligence/raw/master/Lab1-Artificial%20Neural%20Network/Result%20Description/1.jpg)
