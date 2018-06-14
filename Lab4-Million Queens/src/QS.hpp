@@ -164,6 +164,7 @@ public:
             calc_conflict(ld, rd, sum_ld, sum_rd);
             swap_count = 0;
             loop_time++;
+            i = problem_size - c;
         }
         while (true);
         free(ld);
