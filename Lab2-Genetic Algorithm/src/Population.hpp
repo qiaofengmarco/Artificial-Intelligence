@@ -94,14 +94,14 @@ public:
             }
         }
     }
-    void evolve(const double rate, double &max, double &ans)
+    void evolve(const double mutation_rate, const double cross_rate, double &max, double &ans)
     {
         //mark the availability of an individual
         bool* chosen = (bool*) malloc(sizeof(bool) * population_size);
 
         memset(chosen, 0, sizeof(bool) * population_size);
         generation++;
-        int chosen_count = 0, index1 = 0, index2 = 0, temp = 0, count = 0;
+        int chosen_count = 0, index1 = 0, index2 = 0, temp = 0, count = 0, cross_count = (int) (population_size * cross_rate);
 
         Individual son(lower_x, upper_x), daugter(lower_x, upper_x);
         
@@ -125,7 +125,7 @@ public:
             {
                 count++;
                 index1 = select();
-                if (count >= population_size / 2)
+                if (count >= cross_count)
                 {
                     for (int j = 0; j < population_size; j++)
                         if (!chosen[j])
@@ -144,7 +144,7 @@ public:
             {
                 count++;
                 index2 = select();
-                if (count >= population_size / 2)
+                if (count >= cross_count)
                 {
                     for (int j = 0; j < population_size; j++)
                         if (!chosen[j])
@@ -164,9 +164,9 @@ public:
             individuals.push_back(son);
             individuals.push_back(daugter);
         }
-        while (chosen_count < population_size / 2);
+        while (chosen_count < cross_count);
 
-        int upper = (int)(population_size * rate);
+        int upper = (int)(population_size * mutation_rate);
         
         //mutation
         for (int i = 0; i < upper; i++)
@@ -195,7 +195,8 @@ public:
         vector<Individual> new_individuals;
         new_individuals.resize(population_size);
         
-        int index = 0, count = 0;
+        int index = 0;
+        unsigned int count = 0;
 
         for (int i = 0; i < population_size; i++)
         {
@@ -219,6 +220,7 @@ public:
             count = 0;
         }
         
+        individuals.resize(new_individuals.size());
         individuals.assign(new_individuals.begin(), new_individuals.end());
 
         vector<Individual>().swap(new_individuals);

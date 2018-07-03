@@ -79,10 +79,16 @@ public:
     }
     static int myrand(int max)
     {
+        double i;
+
+        seed *= ((long long) 134775);
+        seed += 131;
+        seed %= RAND_MAX;
         seed++;
-        seed *= ((long long) 123332111);
-        seed %= 2147483647;
-        return seed % max;
+
+        i = ((double) seed) / (double) RAND_MAX;
+
+        return (int) (max * i);
     }
     Individual operator=(const Individual& a)
     {

@@ -3,12 +3,14 @@
 
 int main()
 {
-    Population population(50, 0, 9);
+    Population population(80, 0, 9);
     //population.printIndividuals();
     double max = 0, ans = 0;
-    while (max < 24.8553)
+    int count = 0;
+    while ((max < 24.8553) && (count < 300))
     {
-        population.evolve(0.3, max, ans);
+        //cout << ++count << endl;
+        population.evolve(0.3, 0.6, max, ans);
         //population.printIndividuals();
     }
     cout << "Generation: " << population.getGeneration() << endl;
