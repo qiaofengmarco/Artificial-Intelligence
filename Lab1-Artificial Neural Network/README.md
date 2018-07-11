@@ -1,5 +1,6 @@
 # Artificial Neural Network for Face Recognition
 - Lab homepage: http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/faces.html
+- Slide: https://docs.google.com/presentation/d/1rHBueCaTUw19GCwb7Ynr4bTU4Bd4nC6FK0Ck1yl2zqk/edit?usp=sharing
 - Important Note: 
   - You can use my code as reference, but please don't directly copy them, because its performance may be poor. (I have analysized the result in my slides.)  
 - Code:
